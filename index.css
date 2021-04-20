@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: #f3f3fa;
+}
+
+.grid {
+    justify-content: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+}
+
+.pixel {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.buttons {
+    display: inline-grid;
+    gap: 2px;
+    width: 20%;
+}
